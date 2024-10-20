@@ -12,7 +12,7 @@ qr = qrcode.QRCode(
 # Adicionando o link do vídeo, página
 # ou imagem que deseja incluir no QR Code
 # qr.add_data("https://www.instagram.com/destinoidealtur/")
-qr.add_data("http://127.0.0.1:5500/qrHolografico.html")
+qr.add_data("https://destinoidealtourfelipedasilvamachado.github.io/qrHolografico.html")
 qr.make(fit=True)
 
 # Criar a imagem do QR Code
