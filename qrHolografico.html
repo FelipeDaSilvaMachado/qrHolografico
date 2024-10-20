@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="qrHolografico.css">
+    <script src="js/aframe.min.js"></script>
+    <script src="js/aframe-ar.js"></script>
     <title>Destino Ideal Tour.</title>
 </head>
 
 <body>
-    <a-scene embedded arjs='sourceType: webcam;'>
+    <a-scene embedded arjs="sourceType: webcam;">
         <a-marker preset="hiro">
             <a-video src="#video" width="4" height="3" position="0 0.5 0" rotation="-90 0 0" scale="1 1 1"></a-video>
         </a-marker>
@@ -19,8 +21,7 @@
     <video id="video" autoplay loop="true" muted playsinline src="video/Destino Ideal Tour Navio.mp4"
         style="display: none;">
     </video>
-    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="js/ar/aframe-ar.js"></script>
+
 </body>
 
 </html>
