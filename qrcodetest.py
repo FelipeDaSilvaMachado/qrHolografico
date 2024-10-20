@@ -13,7 +13,7 @@ qr = qrcode.QRCode(
 # ou imagem que deseja incluir no QR Code
 
 # qr.add_data("https://www.instagram.com/destinoidealtur/")
-qr.add_data("https://felipedasilvamachado.github.io/qrHolografico/video/Destino%20Ideal%20Tour%20Navio.mp4")
+qr.add_data("https://felipedasilvamachado.github.io/qrHolografico/qrHolografico.html")
 qr.make(fit=True)
 
 # Criar a imagem do QR Code
